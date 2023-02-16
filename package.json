@@ -1,0 +1,28 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "mocha chai petstore",
+  "main": "index.js",
+  "scripts": {
+    "welcome" : "mocha test/api/welcomeTest.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azzzulya/Automation.git"
+  },
+  "author": "azis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azzzulya/Automation/issues"
+  },
+  "homepage": "https://github.com/Azzzulya/Automation#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12"
+  }
+}
